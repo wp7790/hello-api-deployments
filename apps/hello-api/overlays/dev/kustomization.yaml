@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - replica-patch.yaml      # environment-specific patches
+  - image-patch.yaml        # optional, to override image tag
